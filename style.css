@@ -24,6 +24,16 @@ html, body{
     position: fixed;
     z-index: 99;
 }
+
+#cursor{
+    height: 25px;
+    width: 25px;
+    background-color: #95C11E;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 99;
+}
+
 #nav img{
     height: 75px;
 }
