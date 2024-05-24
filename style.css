@@ -140,6 +140,7 @@ video{
     color: transparent;
     -webkit-text-stroke: 2px #95C11E;
     transition: all linear 0.5s;
+    margin-bottom: 60px;
 }
 #scroller h4:hover{
     color: #95C11E;
@@ -155,9 +156,31 @@ video{
 #about-us{
     height: 40vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0 50px;
+    position: relative;
+    z-index: 10;
+}
+
+#about-us img{
+    border-radius: 20px;
+    object-fit: cover;
+    height: 220px;
+    width: 220px;
+}
+#about-us-in{
+    width: 40%;
+    text-align: center;
+}
+#about-us-in h3{
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#about-us-in p {
+    font-size: 20px;
+    line-height: 26px;
 }
