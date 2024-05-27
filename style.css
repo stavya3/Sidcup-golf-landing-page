@@ -319,6 +319,7 @@ video {
   align-items: center;
   justify-content: center;
   gap: 70px;
+  position: relative;
 }
 .elem{
   height: 70%;
@@ -356,4 +357,15 @@ video {
 }
 .elem:hover img{
   scale: 1;
+}
+
+#page4 h1{
+  text-align: center;
+  font-size: 80px;
+  position: absolute;
+  font-family: gilroy;
+  color: #000;
+  top: -12%;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #fff;
 }
