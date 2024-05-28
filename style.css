@@ -17,6 +17,17 @@ body {
   background-color: white;
   color: #95c11e;
 }
+
+body::-webkit-scrollbar{
+  display: block;
+  width: 8px;
+  background: linear-gradient(to right, #95c11e, #000);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #fff;
+  border-radius: 50px;
+}
 #nav {
   height: 145px;
   width: 100%;
