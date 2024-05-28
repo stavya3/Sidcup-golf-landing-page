@@ -13,6 +13,10 @@ body {
   /* perspective: 800px; */
 }
 
+* ::selection{
+  background-color: white;
+  color: #95c11e;
+}
 #nav {
   height: 145px;
   width: 100%;
